@@ -73,7 +73,7 @@
   flex-direction: column;
   justify-content:space-evenly;
   text-align: center;
-  background:url("../images/PayNowCover.jpg");
+  background:url("images/PayNowCover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +85,7 @@
   flex-direction: column;
   justify-content:space-evenly;
   text-align: center;
-  background:url("../images/facebookCover.jpg");
+  background:url("images/facebookCover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,7 +96,7 @@
   flex-direction: column;
   justify-content:space-evenly;
   text-align: center;
-  background:url("../images/facebookCover.jpg");
+  background:url("images/facebookCover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,7 +109,7 @@
   flex-direction: column;
   justify-content:space-evenly;
   text-align: center;
-  background:url("../images/whatsappCover.png");
+  background:url("images/whatsappCover.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +121,7 @@
   flex-direction: column;
   justify-content:space-evenly;
   text-align: center;
-  background:url("../images/waQuizCover.jpg");
+  background:url("images/waQuizCover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,7 +134,7 @@
   flex-direction: column;
   justify-content:space-evenly;
   text-align: center;
-  background:url("../images/cpfCover.jpg");
+  background:url("images/cpfCover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,7 +145,7 @@
   flex-direction: column;
   justify-content:space-evenly;
   text-align: center;
-  background:url("../images/healthCover.jpg");
+  background:url("images/healthCover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -157,7 +157,7 @@
   flex-direction: column;
   justify-content:space-evenly;
   text-align: center;
-  background:url("../images/willCover.jpg");
+  background:url("images/willCover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
