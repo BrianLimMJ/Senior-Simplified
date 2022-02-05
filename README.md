@@ -1,1 +1,2 @@
-# Senior-Simplified
+# SeniorSimplified
+Website that teaches seniors on commonly used applications

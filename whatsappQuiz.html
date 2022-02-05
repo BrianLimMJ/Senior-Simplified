@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsappQuiz</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="box">
+                <a href="../index.html"> <img src="../images/logo.png" style="width: auto; height: 50px; margin: 10px;"></a>
+                <a href="../index.html" id="nav-text">Home</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn" id="nav-text">Social Media Guide</button>
+                    <div class="dropdown-content">
+                        <a href="../fbGuide.html">Facebook</a>
+                        <a href="../whatsapp.html">WhatsApp</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn" id="nav-text">Banking Guide</button>
+                    
+                    <div class="dropdown-content">
+                        <a href="../dbsLogin.html">DBS Banking Login</a>
+                        <a href="../dbsPayNow.html">DBS PayNow</a>
+                        <a href="../ViewCPF.html">CPF Balance</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn" id="nav-text">Health Guide</button>                 
+                    <div class="dropdown-content">
+                        <a href="../BMICalculator.html">BMI Calculator</a>
+     
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn" id="nav-text">Will Writing</button>                 
+                    <div class="dropdown-content">
+                        <a href="../willWriting.html">Will Writing</a>
+     
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </header>
+    <div class="whatsappQuiz-container">
+        <div class="menu-title">
+             <h1>WhatsApp Quiz</h1>
+         </div>
+         <div class="waoutside-box">
+            <div id="google_translate_element"></div>
+
+            <script type="text/javascript">
+            function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+            }
+            </script>
+
+             <form id="waQuiz">     
+                <h1>Which option are not a scammer traits?</h1>
+                <h3><input type="radio" name="traits" value="25"required/>Message claimed that they are from offical banks or government and is demanding for banking credentials.<br></h3>
+                <h3><input type="radio" name="traits" value="0" required/>By their profile pictures <br></h3>
+                <h3><input type="radio" name="traits" value="0" required/>It's from a foreign number or has more than eight digit.<br></h3>
+                <h3><input type="radio" name="traits" value="0" required/>Message that provides information and have no suspicious link.<br></h3>
+
+                <h1>How to confirm it is a scammer once you have identified a scammer trait.</h1>
+                <h3><input type="radio" name="confirmed" value="25"required />Verifiy with the potential scammer as you don't wan to offend them.<br></h3>
+                <h3><input type="radio" name="confirmed" value="0" required/>Call the official number that the potential scammer are claimed to be.<br></h3>
+                <h3><input type="radio" name="confirmed" value="0" required/>There is no need to as it is a scammer.<br></h3>
+
+                 
+                <h1>What should you do after you have identified a scammer?</h1>
+                <h3><input type="radio" name="action" value="25" required/>Block the scammer.<br></h3>
+                <h3><input type="radio" name="action" value="0" required/>Blackmail the scammer.<br></h3>
+                <h3><input type="radio" name="action" value="0" required/>Do Nothing.<br></h3>
+                
+                <h1>What should you do to prevent yourself for being scam?</h1>
+                <h3><input type="radio" name="prevent" value="25"required/>Keep in touch with official SPF website and news to know the latest scam tricks.<br></h3>
+                <h3><input type="radio" name="prevent" value="0" required/>There is no need, I am too smart for it.<br></h3>
+                <h3><input type="radio" name="prevent" value="0"required/>I don't use phone, so there is no reason to keep up with the latest scam.<br></h3>
+
+                <button type="submit" value="Submit">Submit</button>
+             </form>
+             <h2>Your score is: <span id="grade">__</span></h2>
+            <h3 id="grade2"></h3>
+        </div>     
+        
+        <div class="quiz-box">
+            <a href="../whatsapp.html" style="color: #000000; font-size: 20px;"> Click here to return to the guide</a>
+        </div>
+
+        
+       <footer>
+         <div class="footer-container">
+             &copy; 2021 Senior Simplified</a>
+         </div>
+     </footer>
+     </div>
+     <script src="../js/waQuiz.js"></script>
+     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

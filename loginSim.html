@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PayNow Simulator</title>
+
+  <link rel="stylesheet" href="../css/styles.css">  
+
+</head>
+<body>
+ 
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senior Simplified</title>
+  
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+  <!--  The NavBar  -->
+  <header>
+    <div class="navbar">
+      <div class="box">
+          <a href="../index.html"> <img src="../images/logo.png" style="width: auto; height: 50px; margin: 10px;"></a>
+          <a href="../index.html" id="nav-text">Home</a>
+
+          <div class="dropdown">
+              <button class="dropbtn" id="nav-text">Social Media Guide</button>
+              <div class="dropdown-content">
+                  <a href="../fbGuide.html">Facebook</a>
+                  <a href="../whatsapp.html">WhatsApp</a>
+              </div>
+          </div>
+
+          <div class="dropdown">
+              <button class="dropbtn" id="nav-text">Banking Guide</button>
+              
+              <div class="dropdown-content">
+                  <a href="../dbsLogin.html">DBS Banking Login</a>
+                  <a href="../dbsPayNow.html">DBS PayNow</a>
+                  <a href="../ViewCPF.html">CPF Balance</a>
+              </div>
+          </div>
+
+          <div class="dropdown">
+              <button class="dropbtn" id="nav-text">Health Guide</button>                 
+              <div class="dropdown-content">
+                  <a href="../BMICalculator.html">BMI Calculator</a>
+
+              </div>
+          </div>
+
+          <div class="dropdown">
+              <button class="dropbtn" id="nav-text">Will Writing</button>                 
+              <div class="dropdown-content">
+                  <a href="../willWriting.html">Will Writing</a>
+
+              </div>
+          </div>
+      </div>      
+  </div>
+  </header>
+
+  <!--  The Body  -->
+
+  <div class="body-container">
+    <div class="menu-title">
+      <h1>Time for Simulation</h1>
+    </div>
+    <div class="menu-title">
+      <h2>For each step completed, scroll down for progress</h2>
+    </div>
+
+    <div id="sect1-container">
+      <div class="phone-box">
+        <!-- <img src="/images/posb-digibank-logo.jpg" id="imgbtn" alt="login" onclick="showLogin()"> -->
+        <input type="image" src="../images/posb-digibank-logo.jpg" id="imgbtn" onclick="showLogin()">
+        <h2>Log in</h2>
+      </div>
+
+      
+    </div>
+
+    <!-- Section 2 -->
+    <div id="sect2-container">
+      <div  class="phone-box">
+        <div class="form-container">
+          <input type="text" class="input-box" id="UserID" placeholder="User ID (ben)"><br>
+          <input type="password" class="input-box" id="Pin" placeholder="PIN (12345)"><br>
+        </div>
+
+        <div class="form-container">
+          Forgot <a href="#"><u>UserID</a></u> or <a href="#"><u>PIN</u></a>?
+        </div>
+        
+        <div class="form-container">
+          <input type="button" id="loginbtn" onclick="login()" value="Login">
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div id="sect3-container">
+      <div class="phone-box">
+        <h1>Congratulations! You have successfully logged in.</h1>
+        
+        <div class="image-box">
+          <img src="/images/Balance2.jpg" alt="balance" id="balanceImg">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- scripts -->
+  <script src="../js/simulator.js"></script>
+</body>
+</html>

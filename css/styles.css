@@ -1,0 +1,623 @@
+/*-------CONTAINERS------------------ */
+.body-container, .sect2-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  text-align: center;
+  align-items: center;
+  
+}
+
+#sect1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:auto;
+  padding-top: 50px;
+}
+
+#sect2-container, #sect3-container, #sect4-container,
+#sect5-container, #sect6-container, #sect7-container {
+  display: none;
+}
+
+#telbox {
+  margin-left: 25%;
+  display: none;
+}
+
+#amount {
+  margin: 5px 60%;
+  display: none;
+}
+
+.body-container{
+  background:url("../images/dbsCover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.indexbody-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-evenly;
+  text-align: center;
+  margin-bottom: 50px;
+  background:url("../images/old\ classroom.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 95%;
+  padding-top: 100px;
+}
+
+.dbsbody-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  text-align: center;
+  background:url("../images/dbsCover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.PayNowbody-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  text-align: center;
+  background:url("../images/PayNowCover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fbbody-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  text-align: center;
+  background:url("../images/facebookCover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fbquiz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  text-align: center;
+  background:url("../images/facebookCover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+.whatsapp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  text-align: center;
+  background:url("../images/whatsappCover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.whatsappQuiz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  text-align: center;
+  background:url("../images/waQuizCover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+.cpfbody-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  text-align: center;
+  background:url("../images/cpfCover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bmi-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  text-align: center;
+  background:url("../images/healthCover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.will-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  text-align: center;
+  background:url("../images/willCover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*-----------END OF CONTAINERS--------------- */
+
+/*----------NAVBAR-----------*/
+
+/* NavBar container */
+.navbar {
+overflow: hidden;
+background-color: #333;
+font-family: Arial;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+#nav-text {
+  margin: 10px;
+  padding: 14px 16px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+float: left;
+font-size: 16px;
+color: #fff;
+text-align: center;
+text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+font-size: 16px;
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;  /*Important for vertical align on mobile phones*/ 
+margin: 0;  /*Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: blueviolet;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+/*-----------END OF NAVBAR-------- */
+
+/* Universal Button */ 
+.button {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #333;
+  font-family: Arial;
+  text-decoration: none;
+  padding: 4px;
+}
+
+.button:hover {
+  background-color: blueviolet;
+}
+
+#imgbtn {
+  width: 70%;
+}
+
+#imgbtn:hover, #simbtn:hover{
+  width: 82%;  
+}
+
+#nextbtn:hover {
+  width: 101%;
+}
+/* --------------- INDEX---------------------------- */
+.indexoutside-box {
+  margin: 60px;
+  padding-top: 20px;
+  border-radius: 8px;
+  width: 65%;
+  background-color: rgb(33 33 33 / 0.8);
+  box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: #000000;
+  background-color: #c8e7ffec;
+}
+
+.main-links{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 45px;
+}
+
+.main-buttons{
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #000000;
+  background-color: #C8E7FF;
+  outline-style: none;
+  font-size: 20px;
+  box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
+}
+
+.main-buttons:hover{
+  background-color: #D8BBFF;
+}
+
+.Credential-buttons{
+  margin-right: 250px;
+}
+
+/* ---------------END OF INDEX---------------------- */
+
+
+/*-----------------DBS LOGIN & PAYNOW---------------*/
+.menu-title{ 
+  width: 45%; 
+  border-radius:20px; 
+  margin: auto;
+  margin-top: 50px;
+  background-color: #c8e7ffc0;
+}
+
+.outside-box {
+  margin: 60px;
+  padding-top: 20px;
+  border-radius: 30px;
+  background-color: #c8e7ffc0;
+  box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+.inside-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.image-box {
+  width: 30%;
+}
+
+img {
+  height: auto;
+  width: 80%;
+}
+
+.text-box {
+  text-align: center;
+  width: 30%;
+  padding-top: 100px;
+  color: #000000;
+  background-color: #FFE8D6, 0.2;
+  height: fit-content;
+}
+
+.simulation-box{
+  text-align: center;
+  border-style: outset;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 12%;
+  background-color: #ffcbf2fa;
+}
+
+.phone-box{
+  margin: 40px;
+  padding: 20px;
+  width: auto;
+  height: fit-content;
+  border: 5px solid #333;
+  border-radius: 3%;
+  background-color: #C8E7FF;
+}
+
+.paynow-box{
+  /* border: 3px solid red; */
+  width: auto;
+  height: fit-content;
+
+}
+
+#balanceImg {
+  box-shadow: 0px 0px 16px 0px;
+  width: 150%;
+  margin-left: 100%
+}
+
+
+/* --------------END OF DBS LOGIN AND PAYNOW------------ */
+
+
+/* ----------------FACEBOOK---------------------- */
+
+.fboutside-box {
+  margin: 60px;
+  padding-top: 20px;
+  border-radius: 30px;
+  background-color: #c8e7ffc0;
+  box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+.quiz-box{
+  text-align: center;
+  border-style: outset;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 25%;
+  background-color: #ffcbf2fa;
+}
+
+.simulation-box:hover{
+  background-color: #D8BBFF;;
+}
+
+.quiz-box:hover{
+  background-color: #D8BBFF;;
+}
+
+
+/* ----------END OF FACEBOOK------------------ */
+
+/* ----------------Whatsapp---------------------- */
+
+.waoutside-box {
+  margin: 60px;
+  padding-top: 20px;
+  border-radius: 30px;
+  background-color: #c8e7ffc0;
+  box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+.quiz-box{
+  text-align: center;
+  border-style: outset;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 25%;
+  background-color: #ffcbf2fa;
+}
+
+.simulation-box:hover{
+  background-color: #D8BBFF;;
+}
+
+.quiz-box:hover{
+  background-color: #D8BBFF;;
+}
+
+
+/* ----------END OF WhatsappQuiz------------------ */
+
+/* ----------------Will FAQ---------------------- */
+
+.will-question{
+  text-align: center;
+  border-style: outset;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 40%;
+  background-color: #ffcbf2fa;
+}
+
+.will-text-box {
+  text-align: center;
+  color: #000000;
+  background-color: #FFE8D6, 0.2;
+  height: fit-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+/* ----------END OF Will FAQ------------------ */
+
+/* ------------FOOTER---------------- */
+.footer-container{
+  text-align: center;
+  border-style: inset;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 30%;
+  color: #000000;
+  background-color: #c8e7ffc0;
+  font-size: 20px;
+}
+
+/* ------------END OF FOOTER---------------- */
+
+.form-box {
+  margin: auto;
+
+  text-align: left;
+}
+
+.form-container {
+  padding: 20px 0;
+}
+
+
+
+#UserID input, #Pin input, #loginbtn {
+  width: 180px;
+  border: none;
+  outline: 0;
+}
+
+label {
+  margin-left: 5px;
+  position: absolute;
+}
+
+
+/* ------------Mobile View---------------- */
+@media only screen and (max-width: 600px) {
+  .navbar{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .dropdown{
+    float: unset;
+    overflow: unset;
+  }
+  .branding
+  {
+    width: auto;
+  }
+  
+  .indexoutside-box{
+    width: 100%;
+    margin: auto;
+  }
+
+  .main-buttons{
+    padding: 20px;
+    font-size: 24px;
+  }
+  .Credential-buttons{
+    padding-top: 10px;
+    margin: auto;
+  }
+  
+  .menu-title{
+    width: auto;
+    padding: 10px;
+  }
+  .outside-box
+  {
+    margin: 10px;
+  }
+
+  .inside-box{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-box{
+    width: auto;
+  }
+
+  .text-box{
+    width: 80%;
+  }
+
+  .fboutside-box{
+    margin: 10px;
+  }
+
+  .waoutside-box{
+    
+    margin: 10px;
+  }
+
+  .will-question{
+    width: 80%;
+  }
+
+  .simulation-box
+  {
+    width: auto;
+  }
+
+  .quiz-box
+  {
+    width: 90%;
+  }
+
+  .footer-container{
+    width: 90%;
+  }
+}
+  
+
+
+/* ------------END OF Mobile View---------------- */
+
+.goog-logo-link img{
+  height: 15px;
+  width: 40px;
+}
